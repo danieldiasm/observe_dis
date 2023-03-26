@@ -1,5 +1,5 @@
 from rpi_lcd import LCD
-from signal import signal
+import signal
 
 lcd = LCD()
 def safe_exit(signum, frame):
