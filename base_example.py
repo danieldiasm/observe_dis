@@ -15,3 +15,5 @@ except KeyboardInterrupt:
     pass
 finally:
     lcd.clear()
+    lcd.backlight(False)
+    lcd.text("--OFFLINE--", 1)
