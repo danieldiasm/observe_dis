@@ -4,11 +4,12 @@ An application for I2C 16x2 LCD Displays that show Jenkins Automation Status
 
 ## StartUp Routine
 
-    - Check if Displays is Available
-    - Check Own IP
-    - Check Server Availbility (Using ICMP)
-    - Check Jenkins Availbility (Using GET Request on Login Form)
+    1. Check if the display is available
+    2. Check Own IP
+    3. Check Server Availbility (Using ICMP)
+    4. Check Jenkins Availbility (Using GET Request on Login Form)
 
-    ### To-Do
-        - Add Logging
-        - Fail if display is not found (I2C)
+### To-Do on 'StartUp Routine'
+
+    . Add Logging
+    . Fail if display is not found (I2C)
