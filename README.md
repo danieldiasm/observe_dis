@@ -13,3 +13,5 @@ An application for I2C 16x2 LCD Displays that show Jenkins Automation Status
 
     . Add Logging
     . Fail if display is not found (I2C)
+    . MQTT Check routine
+    . Add development roadmap on the readme
