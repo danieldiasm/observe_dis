@@ -14,13 +14,13 @@ SRV_UP=""
 JENKINS_UP=""
 
 
-def show_and_clear(line1, line2, delay):
+def print_and_clear(line1, line2, delay):
     lcd.text(line1, 1)
     lcd.text(line2, 2)
     time.sleep(delay)
     lcd.clear()
 
-def show_only(line1, line2):
+def print_only(line1, line2):
     lcd.clear()
     lcd.text(line1, 1)
     lcd.text(line2, 2)
