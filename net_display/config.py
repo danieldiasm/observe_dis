@@ -9,6 +9,7 @@ class Config:
 
     def load_config(self):
         self.config.read(self.config_file)
+        self.generate_item_objects()
 
     def generate_item_objects(self) -> None:
         for key in self.config.sections():
